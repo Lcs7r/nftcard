@@ -29,18 +29,34 @@ a:hover {
   border-radius: 13px;
   padding: 1.3rem;
   transition: 0.4s ease-in-out;
-  transform: scale(1);
+  transform: scale(1.2);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.116);
-}
-
-.container:hover {
-  transform: scale(1.05);
-  box-shadow: 18px 18px 20px rgba(0, 0, 0, 0.171);
 }
 
 .equilibrium {
   width: 100%;
   border-radius: 5px;
+}
+
+.imgcard_view {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  border-radius: 5px;
+  top: 1.3rem;
+  left: 1.3rem;
+  border: none;
+  opacity: 0;
+  cursor: pointer;
+  background: hsla(178, 100%, 50%, 0.466);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.imgcard_view:hover {
+  opacity: 1;
 }
 
 .title {
