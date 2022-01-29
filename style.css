@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Outfit";
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.container {
+  margin: 13rem auto;
+  width: 298px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 13px;
+  padding: 1.3rem;
+  transition: 0.4s ease-in-out;
+  transform: scale(1);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.116);
+}
+
+.container:hover {
+  transform: scale(1.05);
+  box-shadow: 18px 18px 20px rgba(0, 0, 0, 0.171);
+}
+
+.equilibrium {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 18px;
+  color: white;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+
+.description {
+  color: hsl(217, 23%, 65%);
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.1rem;
+}
+
+.price {
+  font-weight: 400;
+  font-size: 0.855rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+}
+
+.equilibriumIcon {
+  margin-left: 0.1rem;
+  margin-right: 0.35rem;
+  height: 15px;
+}
+
+.daysLeft {
+  font-weight: 400;
+  font-size: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: hsl(217, 23%, 65%);
+}
+
+.daysLeft img {
+  margin-right: 0.4rem;
+  height: 14px;
+}
+
+.line {
+  margin: 1.25rem 0 0.9rem 0.15rem;
+  border-bottom: 1px hsla(217, 23%, 65%, 0.247) solid;
+  width: 255px;
+}
+
+.creator {
+  font-weight: 400;
+  font-size: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: hsl(217, 23%, 65%);
+  margin-bottom: 0.4rem;
+}
+
+.creator img {
+  border: white 1px solid;
+  border-radius: 50%;
+  height: 28px;
+  margin-left: 0.1rem;
+  margin-right: 0.9rem;
+}
+
+.creator .name {
+  color: white;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.creator .name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  color: white;
+}
